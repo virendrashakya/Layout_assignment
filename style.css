@@ -747,13 +747,28 @@ button{
     margin-right: auto;
     margin-top: 18px;
 }
+.listed{
+	display: block;
+	width: inherit;
+	height: auto;
+	padding-left: auto;
+	padding-right: auto;
+	/*margin: 20px auto 20px auto;*/
+	position: relative;
+	/*top: 50%;*/
+	right: auto;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 40px;
+}
 .flink p{
 	font-family: sans-serif;
 	color: #616161;
 	font-size:0.8em;
 	display: block;
 	float: left;
-	left: 43%;
 }
 .footer{
 	height: 100px;
