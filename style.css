@@ -728,26 +728,24 @@ button{
 	/*margin: 20px auto 20px auto;*/
 	position: relative;
 	/*top: 50%;*/
-	left: 48%;
 	right: auto;
     left: auto;
-    margin-left: 615px;
-    margin-right: 615px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0px;
     padding-top: 40px;
 }
 .flink hr{
 	display: block;
-	float: left;
 	background-color: #FFD600;
 	border: 0px;
     margin-left: 45%;
     height: 2px;
     width: 130px;
     margin-bottom: 15px;
-    margin-right: 583px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 18px;
-    margin-left: 583px;
 }
 .flink p{
 	font-family: sans-serif;
