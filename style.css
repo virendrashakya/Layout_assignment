@@ -504,11 +504,18 @@ li img{
 }
 .user_images{
 	width: inherit;
+	width: 100%;
 	height: 420px;
-	margin-right:120px; 
-	margin-left:120px;
+	padding-right: 8%;
+	padding-left: 8%;
 	overflow: hidden;
 	/*background-color: red;*/
+}
+.user_image{
+	width: 33.33%;
+	height: inherit;
+	float: left;
+	align-content: center;
 }
 .user_image img{
 	width: 350px;
@@ -521,9 +528,8 @@ li img{
 	height: 200px;
 	/*background-color: red;*/
 	width: inherit;
-	margin-left: 120px;
-	margin-right: 120px;
-	padding: 0px;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 .altt{
 	width: 33.33%;
