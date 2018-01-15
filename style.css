@@ -535,7 +535,9 @@ li img{
 	width: inherit;
 	height: 250px;
 	background-color: #EEEEEE;
+	overflow: hidden;
 }
+
 .price_heads p{
 	font-size: 2.5em;
 	margin-left: auto;
@@ -561,20 +563,31 @@ li img{
     margin-bottom: 15px;
     margin-top: 12px;
 }
-.price_body{
-	width: inherit;
-	height: 400px;
-	background-color: #EEEEEE;
-	margin-left: 160px;
-	margin-right: 160px;
+*{
+	box-sizing: border-box;
 }
-.p_row{
+.price_body{
+	width: 100%;
+	height: 400px;
+	padding-left: 170px;
+	padding-right:170px;
+	background-color: #EEEEEE;
+}
+.p_col{
 	width: 28%;
 	height: inherit;
 	float: left;
-	background-color: white;
+	display: inline;
+	padding: 20px;
 	margin-left: 15px;
 	margin-right: 15px;
+	background-color: #ffffff;
+}
+.p_foot
+{
+	height: 200px;
+	width: inherit;
+	background-color: #EEEEEE;
 }
 .contactform{
 	height: 700px;
