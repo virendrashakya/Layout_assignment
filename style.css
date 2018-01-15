@@ -444,7 +444,7 @@ li img{
 .banner{
 	width: 100%;
 	height: 250px;
-	background-image: url(images/banner.jpg);
+	background-image: url(images/banner.png);
 	background-repeat: no-repeat;
 	overflow: cover;
 	background-color: #fff176;
