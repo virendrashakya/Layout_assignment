@@ -14,22 +14,29 @@
 	background-color:#ffffff;
 	padding: 0px;
 }
+.gimg{
+	float: left;
+	display: inline;
+	width: 30px;
+	height: inherit;
+	padding-left: 1.2%;
+	padding-top: 1%;
 
+}
 .nav-bar img{
 	float: left;
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 11px;
-    margin-right: 15px;
 }
 
 ul{
 	list-style-type: none;
 	display: inline;
 	float: right;
+	height:auto;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 li{
 	display: inline-block;
@@ -86,6 +93,7 @@ li img{
 	display: inline;
 	margin-top: 150px;
 	margin: 0px;
+	padding-left: 8%;
 	float: left;
 	width: 35%;
 	height: inherit;
@@ -99,21 +107,19 @@ li img{
 	border: 0px;
 	margin-top: 8px;
 	margin-bottom: 222px;
-    margin-left: 100px;
     height: 5px;
     width: 50px;
 }
 .hleft p{
-	font-size: 3.2vw;
-	margin-left: auto;
+	font-size: 2.8vw;
+	width: auto;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
     font-family: sans-serif;
     display: block;
-    padding-left: 100px;
     padding-top: 120px;
-    padding-right: 180px;
+    padding-right: 21%;
     color: #212121;
     padding-bottom: 0px;
 }
@@ -148,18 +154,15 @@ li img{
 	margin:0px;
 	padding: 0px;
 }
-.exleft p{
-	font-size: 3.1em;
-	margin-left: auto;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    font-family: sans-serif;
-    display: block;
-    padding-left: 100px;
-    padding-top: 120px;
-    padding-right: 45px;
-    padding-bottom: 0px;
+.exleft{
+	display: inline;
+	margin-top: 150px;
+	margin: 0px;
+	padding-left: 8%;
+	float: left;
+	width: 35%;
+	height: inherit;
+	background-color :white;
 }
 .exleft hr{
 	display: inline;
@@ -168,10 +171,23 @@ li img{
 	border: 0px;
 	margin-top: 8px;
 	margin-bottom: 222px;
-    margin-left: 100px;
     height: 5px;
     width: 50px;
  }
+.exleft p{
+	font-size: 2.8vw;
+	width: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-family: sans-serif;
+    display: block;
+/*    padding-left: 21%;*/
+    padding-top: 120px;
+    padding-right: 21%;
+    color: #212121;
+    padding-bottom: 0px;
+}
  .exleft{
  	display: inline;
  	float: left;
@@ -429,7 +445,10 @@ li img{
 }
 .bat{
 	width: inherit;
-	height: 200px;
+	height: 400px;
+	background-color: white;
+	padding-top: 10%;
+	padding-bottom: 10%;
 /*	background-color: #e1bee7;*/
 
 }
@@ -441,7 +460,7 @@ li img{
     line-height: 160%;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 .banner{
 	width: 100%;
@@ -459,7 +478,7 @@ li img{
 	padding-right: 100px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-/*	background-color: red;*/
+	background-color: white;
 	margin: 0px;
 }
 .cntr{
@@ -509,7 +528,7 @@ li img{
 	padding-right: 8%;
 	padding-left: 8%;
 	overflow: hidden;
-	/*background-color: red;*/
+	background-color: white;
 }
 .user_image{
 	width: 33.33%;
@@ -526,7 +545,7 @@ li img{
 }
 .alttext{
 	height: 200px;
-	/*background-color: red;*/
+	background-color: white;
 	width: inherit;
 	padding-left: 8%;
 	padding-right: 8%;
@@ -791,6 +810,6 @@ button{
 		box-sizing: border-box;
 		margin-left: auto;
 		margin-right: auto;
-		/*background-color: black;*/
+		background-color: black;
 	}
 }
